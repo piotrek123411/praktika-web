@@ -1,4 +1,4 @@
-* {
+*{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 a {
@@ -36,6 +36,77 @@ body
     flex-direction: row;
     font-weight: 400;
 
+}
+
+.back2 img{
+    display: flex;
+    justify-content: center;
+    width: 101%;
+    height: 100%;
+    margin-left: -10px;
+    z-index: -1;
+    
+}
+
+.popularmenutext{
+    display: flex;
+    justify-content: center;
+    margin-top: -80%;
+    font-weight: 500;
+    font-size: 50px;
+    color: #7287ae;
+    z-index: 1;
+}
+
+.tovari{
+    margin-top: 10%;
+    display: flex;
+    z-index: 1;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.tovari .t1{
+    border: 3px solid black;
+}
+.tovari .t2{
+    border: 3px solid black;
+}
+.tovari .t3{
+    border: 3px solid black;
+}
+
+
+.tovari img
+{
+    width: 250px;
+    height: 250px;
+}
+
+.tovari span{
+    font-size: 30px;
+    color: rgb(30, 30, 30);
+}
+
+.more_button{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.more_button button{
+    background-color: #7287ae;
+    color: rgb(255, 255, 255);
+    letter-spacing: 4px;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    width: 240px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30px;
 }
 
 .container {
