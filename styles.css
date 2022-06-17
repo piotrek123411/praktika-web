@@ -4,17 +4,13 @@
 a {
     text-decoration: none;
 }
-body
-{
-    background-color: #7287ae;
-}
+
 .main {
     margin-top: 100px;
 }
 .main .main_text{
     display: flex;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .main .maintext .big h1{
@@ -35,23 +31,19 @@ body
     align-items: center;
     flex-direction: row;
     font-weight: 400;
-
 }
 
 .back2 img{
     display: flex;
     justify-content: center;
-    width: 101%;
-    height: 100%;
-    margin-left: -10px;
+    background-size: 100%;
     z-index: -1;
-    
 }
 
 .popularmenutext{
     display: flex;
     justify-content: center;
-    margin-top: -80%;
+    margin-top: -100%;
     font-weight: 500;
     font-size: 50px;
     color: #7287ae;
@@ -71,16 +63,16 @@ body
 .tovari .t1{
     border: 3px solid black;
 }
+
 .tovari .t2{
     border: 3px solid black;
 }
+
 .tovari .t3{
     border: 3px solid black;
 }
 
-
-.tovari img
-{
+.tovari img{
     width: 250px;
     height: 250px;
 }
@@ -90,13 +82,14 @@ body
     color: rgb(30, 30, 30);
 }
 
-.more_button{
+.button1{
     margin-top: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.more_button button{
+.button1 button{
+    display: flex;
     background-color: #7287ae;
     color: rgb(255, 255, 255);
     letter-spacing: 4px;
@@ -107,6 +100,12 @@ body
     height: 50px;
     font-size: 20px;
     border-radius: 30px;
+    justify-content: center;
+    transition: 0.6s;
+}
+
+.button1 button:hover{
+    width: 270px;
 }
 
 .container {
