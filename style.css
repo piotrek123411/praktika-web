@@ -382,24 +382,21 @@ body {
 .toolbar {
   margin: 0 auto;
   position: relative;
-  width: 83.19088%; /* 1168px / 1404px = 83.19088% */
+  width: 82.834755%; /* 1163px / 1404px = 82.834755% */
 }
 .place-your-logo-here-double-click-to-edit {
   float: left;
   max-width: 298px;
-  width: 25.513699%; /* 298px / 1168px = 25.513699% */
+  width: 25.623388%; /* 298px / 1163px = 25.623388% */
 }
 .order {
   float: right;
-  margin: 14px 0 0;
-  font-family: MyriadPro, serif;
-  font-size: 25px;
-  font-weight: bold;
-  text-align: center;
+  margin: 18px 0 0;
+  width: 61px;
 }
 .promo {
   float: right;
-  margin: 14px 4.280822% 0 0; /* 50px / 1168px = 4.280822% */
+  margin: 14px 4.299226% 0 0; /* 50px / 1163px = 4.299226% */
   font-family: Ubuntu, sans-serif;
   font-size: 25px;
   font-weight: 500;
@@ -407,7 +404,7 @@ body {
 }
 .menu {
   float: right;
-  margin: 14px 4.366438% 0 0; /* 51px / 1168px = 4.366438% */
+  margin: 14px 4.385211% 0 0; /* 51px / 1163px = 4.385211% */
   font-family: Ubuntu, sans-serif;
   font-size: 25px;
   font-weight: 500;
@@ -415,7 +412,7 @@ body {
 }
 .home {
   float: right;
-  margin: 14px 4.280822% 0 0; /* 50px / 1168px = 4.280822% */
+  margin: 14px 4.299226% 0 0; /* 50px / 1163px = 4.299226% */
   font-family: Ubuntu, sans-serif;
   font-size: 25px;
   font-weight: 500;
@@ -869,7 +866,7 @@ body {
 }
 .shape-holder-2 {
   left: 0;
-  padding: 264px 3.268428% 92px; /* 47px / 1438px = 3.268428% */
+  padding: 264px 3.268428% 95px; /* 47px / 1438px = 3.268428% */
   position: absolute;
   top: 182px;
   width: 100%; /* 1438px / 1438px = 100% */
@@ -916,24 +913,28 @@ body {
   text-transform: uppercase;
 }
 .team-3 {
-  margin: 45px 0 0 0.621118%; /* 1px / 161px = 0.621118% */
-  font-size: 20.83333px;
-  font-weight: 600;
+  display: block;
+  margin: 48px 0 0 0.621118%; /* 1px / 161px = 0.621118% */
+  position: relative;
+  width: 47px;
 }
 .text-11 {
-  margin: 7px 0 0 0.621118%; /* 1px / 161px = 0.621118% */
-  font-size: 20.83333px;
-  font-weight: 600;
+  display: block;
+  margin: 13px 0 0 0.621118%; /* 1px / 161px = 0.621118% */
+  position: relative;
+  width: 64px;
 }
 .ethic-3 {
-  margin: 6px 0 0 0.621118%; /* 1px / 161px = 0.621118% */
-  font-size: 20.83333px;
-  font-weight: 600;
+  display: block;
+  margin: 11px 0 0 0.621118%; /* 1px / 161px = 0.621118% */
+  position: relative;
+  width: 46px;
 }
 .goals-3 {
-  margin: 8px 0 0 0.621118%; /* 1px / 161px = 0.621118% */
-  font-size: 20.83333px;
-  font-weight: 600;
+  display: block;
+  margin: 13px 0 0 0.621118%; /* 1px / 161px = 0.621118% */
+  position: relative;
+  width: 51px;
 }
 .col-11 {
   float: right;
@@ -948,24 +949,28 @@ body {
   text-transform: uppercase;
 }
 .team-2 {
-  margin: 45px 0 0;
-  font-size: 20.83333px;
-  font-weight: 600;
+  display: block;
+  margin: 48px 0 0;
+  position: relative;
+  width: 48px;
 }
 .text-10 {
-  margin: 7px 0 0;
-  font-size: 20.83333px;
-  font-weight: 600;
+  display: block;
+  margin: 13px 0 0;
+  position: relative;
+  width: 64px;
 }
 .ethic-2 {
-  margin: 6px 0 0;
-  font-size: 20.83333px;
-  font-weight: 600;
+  display: block;
+  margin: 11px 0 0;
+  position: relative;
+  width: 45px;
 }
 .goals-2 {
-  margin: 8px 0 0;
-  font-size: 20.83333px;
-  font-weight: 600;
+  display: block;
+  margin: 13px 0 0;
+  position: relative;
+  width: 50px;
 }
 .col-10 {
   float: right;
@@ -980,24 +985,28 @@ body {
   text-transform: uppercase;
 }
 .team {
-  margin: 45px 0 0;
-  font-size: 20.83333px;
-  font-weight: 600;
+  display: block;
+  margin: 48px 0 0 0.621118%; /* 1px / 161px = 0.621118% */
+  position: relative;
+  width: 47px;
 }
 .text-9 {
-  margin: 7px 0 0;
-  font-size: 20.83333px;
-  font-weight: 600;
+  display: block;
+  margin: 13px 0 0 0.621118%; /* 1px / 161px = 0.621118% */
+  position: relative;
+  width: 63px;
 }
 .ethic {
-  margin: 6px 0 0;
-  font-size: 20.83333px;
-  font-weight: 600;
+  display: block;
+  margin: 11px 0 0 0.621118%; /* 1px / 161px = 0.621118% */
+  position: relative;
+  width: 46px;
 }
 .goals {
-  margin: 8px 0 0;
-  font-size: 20.83333px;
-  font-weight: 600;
+  display: block;
+  margin: 13px 0 0 0.621118%; /* 1px / 161px = 0.621118% */
+  position: relative;
+  width: 50px;
 }
 .shape-10 {
   left: 14.81224%;
