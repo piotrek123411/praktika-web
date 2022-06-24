@@ -1,0 +1,277 @@
+@charset "UTF-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section, time {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+textarea:focus, input:focus {
+  outline: 0;
+}
+
+input {
+  border-width: 0;
+}
+
+em {
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.group:before,
+.group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
+
+embed,
+img,
+object,
+video {
+  max-width: 100%;
+}
+sup {
+  font-size: 58.3%;
+  vertical-align: text-top;
+}
+sub {
+  font-size: 58.3%;
+  vertical-align: text-bottom;
+}
+.no-space-between-inline-blocks {
+  *letter-spacing: normal;
+  letter-spacing: -0.31em;
+  word-spacing: -0.43em;
+}
+
+.no-space-between-inline-blocks > * {
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+.displace {
+  left: -5000px;
+  position: absolute;
+}
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+html {
+  font-size: 16px;
+}
+body {
+  color: #ffffff;
+  font-family: Ubuntu, sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+body {
+  float: none;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+.background {
+  min-height: 1730px;
+  padding: 0 0 818px;
+  position: relative;
+  background: #dfe9c1 center 0;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.col {
+  min-height: 862px;
+  overflow: hidden;
+  padding: 72px 1.25%;
+  position: relative;
+  width: 100%;
+  background: url(images/shape.png) no-repeat center 0;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.toolbar {
+  margin: 0 auto;
+  position: relative;
+  width: 82.834755%;
+}
+.place-your-logo-here-double-click-to-edit {
+  float: left;
+  max-width: 298px;
+  width: 25.623388%;
+}
+.order {
+  float: right;
+  margin: 18px 0 0;
+  width: 61px;
+}
+.promo {
+  float: right;
+  margin: 14px 4.299226% 0 0;
+  font-weight: 500;
+  text-align: center;
+}
+.menu {
+  float: right;
+  margin: 14px 4.385211% 0 0;
+  font-weight: 500;
+  text-align: center;
+}
+.home {
+  float: right;
+  margin: 14px 4.299226% 0 0; 
+  font-weight: 500;
+  text-align: center;
+}
+.row {
+  left: 17.12963%;
+  margin: 298px auto 0;
+  position: relative;
+  width: 65.74074%; 
+}
+.col-2 {
+  float: left;
+  position: relative;
+  width: 47.77898%;
+}
+.passwordtextbox {
+  height: 98px;
+  margin: 0 auto;
+  width: 100%;
+  border: 2px solid #000000; 
+  -webkit-border-radius: 49px;
+  -moz-border-radius: 49px;
+  border-radius: 49px;
+  background: #ffffff;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; 
+}
+.logintextbox {
+  height: 98px;
+  margin: 32px auto 0;
+  width: 100%; 
+  border: 2px solid #000000; 
+  -webkit-border-radius: 49px;
+  -moz-border-radius: 49px;
+  border-radius: 49px;
+  background: #ffffff;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; 
+}
+.confirmbutton-holder {
+  margin: 54px auto 0;
+  padding: 19px 0 26px;
+  position: relative;
+  width: 83.67347%; 
+  border: 1px solid #ffffff;
+  -webkit-border-radius: 42.5px;
+  -moz-border-radius: 42.5px;
+  border-radius: 42.5px;
+  background: #436dec;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; 
+}
+.confirm {
+  display: block;
+  margin: 0 auto;
+  max-width: 171px;
+  width: 46.341465%; 
+}
+.shape {
+  float: right;
+  margin: 17px 0 0;
+  width: 74px;
+}
+.shape-2 {
+  display: block;
+  margin: -56px 0 0 10.625%;
+  max-width: 179px;
+  position: relative;
+  width: 12.430555%;
+}
